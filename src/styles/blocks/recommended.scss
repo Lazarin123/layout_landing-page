@@ -1,6 +1,6 @@
 .recommended {
   &__products {
-    row-gap: 48px;
+    // row-gap: 48px;
 
     @include page-grid;
     @include consistent-padding-inline;

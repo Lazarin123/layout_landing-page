@@ -1,6 +1,18 @@
 .contact-us {
   @include page-grid;
 
+  &__informations__contact {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    color: #fff;
+  }
+
+  &__informations__contact:hover {
+    color: #00ced1;
+  }
+
   margin-bottom: 120px;
 
   @include on-tablet {
@@ -61,6 +73,18 @@
       grid-column: 4 / 7;
       grid-row: 1 / 4;
       align-self: start;
+
+      &__contact {
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 500;
+        font-style: normal;
+        color: #fff;
+      }
+
+      &__contact:hover {
+        color: #00ced1;
+      }
     }
   }
 

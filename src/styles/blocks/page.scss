@@ -5,6 +5,10 @@
   scroll-behavior: smooth;
   background: $main-text-color;
 
+  &:has(.menu-page:target) {
+    overflow: hidden;
+  }
+
   &__body {
     margin: 0;
     min-width: 320px;

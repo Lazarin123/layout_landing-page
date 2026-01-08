@@ -13,7 +13,7 @@
   }
 
   &--phone {
-    background-image: url(../../images/icons/Icon-phone-call-2x.png);
+    background-image: url(../images/icons/Icon-phone-call-2x.png);
   }
 
   &--phone:hover {
@@ -21,16 +21,16 @@
   }
 
   &--menu {
-    background-image: url(../../images/icons/Icon-burger-menu-2x.png);
+    background-image: url(../images/icons/Icon-burger-menu-2x.png);
 
     &:hover {
-      background-image: url(../../images/icons/Icon-burger-menu-hover-2x.png);
+      background-image: url(../images/icons/Icon-burger-menu-hover-2x.png);
       background-repeat: no-repeat;
     }
   }
 
   &--close {
-    background-image: url(../../images/icons/Icon-close-2x.png);
+    background-image: url(../images/icons/Icon-close-2x.png);
     background-repeat: no-repeat;
   }
 }
